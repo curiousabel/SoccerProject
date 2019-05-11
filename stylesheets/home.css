@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+.sticky-top {
+    box-shadow: 10px;
+}
+
 #carouselExampleControls {
 
     width: 880px;
