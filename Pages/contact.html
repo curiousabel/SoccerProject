@@ -5,73 +5,161 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="../stylesheets/contact.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="../Img/LogoRed.png" type="image/x-icon" />
 
-  <title>ECAO Soccer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>ECAO Soccer |</title>
 </head>
 
 <body>
   <!-- nav -->
-  <nav>
-    <a>ECAO Soccer </a>
+  <div class="container-fluid" style="background-color:bisque ; text-align: center; ">
 
-    <div>
-      <ul>
-        <li>
-          <a href="../Pages/home.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li>
-          <a href="../Pages/about.html">About Us</a>
-        </li>
 
-        <li>
-          <a href="../Pages/teams.html"> Teams </a>
-        </li>
 
-        <li>
-          <a href="#home">Schedule</a>
-        </li>
-        <li>
-          <a href="#news">Events </a>
-        </li>
-        <li>
-          <a href="../Pages/coaches.html">Coaches/Staff </a>
-        </li>
-        <li>
-          <a href="../Pages/contact.html">Contact </a>
-        </li>
+    <img src=" ../Img/LogoRed.png"> <span style="font-size: 200%">
+      ECAO Soccer Toronto
+    </span>
 
-        <li>
-          <a href="#">Volunteer</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+
+  </div>
+  <div class="sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+      <a class="navbar-brand mx-auto" href="../Pages/home.html">
+        <img src="../Img/LogoRed.png" style="width:70px;">
+        ECAO
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse mx-auto" id="navbarText">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item  ">
+            <a class="nav-link" href="../Pages/home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="../Pages/about.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/teams.html"> Teams </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">Events </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="../Pages/coaches.html">Coaches/Staff </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../Pages/contact.html">Contact </a>
+          </li>
+
+          <li>
+            <a class="nav-link" href="#">Volunteer</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
   <!-- nav -->
-  <div>
-    <p>
-      Contact Us
-    </p>
-  </div>
 
-  <div>
-    <h3>Email:</h3>
-    <p>info@ecao.ca</p>
-  </div>
-  <div>
-    <h3>Phone:</h3>
-    <p>1234567890</p>
-  </div>
-  <div>
-    <h3>Follow us at:</h3>
-    <p>Twitter</p>
-    <p>Facebook</p>
-    <p>Instagram</p>
-  </div>
-  <div>
-    <h3>We're located at:</h3>
-    <p>779 Crawford Street</p>
-  </div>
 
+  <div id="wrapper">
+    <div class="clearfix" id="main">
+      <div class="clearfix" id="container">
+
+
+        <!-- Content that neededs to be float left  -->
+        <div class="section" id="content">
+          <br>
+          <div>
+            <p>
+              Contact Us
+            </p>
+          </div>
+
+          <div>
+            <h3>Email:</h3>
+            <p>info@ecao.ca</p>
+          </div>
+          <div>
+            <h3>Phone:</h3>
+            <p>1234567890</p>
+          </div>
+          <div>
+            <h3>Follow us at:</h3>
+            <p>Twitter</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+          </div>
+          <div>
+            <h3>We're located at:</h3>
+            <p>779 Crawford Street</p>
+          </div>
+
+
+
+        </div>
+        <!-- End Conent  -->
+
+      </div>
+      <!-- End Container -->
+
+      <div class="main-aside">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAXX-d6VW_0kG16X9nnQvHApLo2R6ANTio'>
+        </script>
+        <div style='overflow:hidden;height:431px;width:542px;'>
+          <div id='gmap_canvas' style='height:531px;width:782px;'></div>
+          <style>
+            #gmap_canvas img {
+              max-width: none !important;
+              background: none !important
+            }
+          </style>
+        </div> <a href='http://maps-website.com/'>google maps html widget</a>
+        <script type='text/javascript'
+          src='https://embedmaps.com/google-maps-authorization/script.js?id=4307caa19608d79e83df6bb58486641cc4aef4c6'>
+        </script>
+        <script type='text/javascript'>
+          function init_map() {
+            var myOptions = {
+              zoom: 12,
+              center: new google.maps.LatLng(41.3196391445243, -72.88591566456206),
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+            marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(41.3196391445243, -72.88591566456206)
+            });
+            infowindow = new google.maps.InfoWindow({
+              content: '<strong>ECAO</strong><br>2515 Blair Blvd, London ON <br>N5V 3Z9 Toronto<br>'
+            });
+            google.maps.event.addListener(marker, 'click', function () {
+              infowindow.open(map, marker);
+            });
+            infowindow.open(map, marker);
+          }
+          google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+      </div>
+
+    </div>
+
+
+    <!-- end Main -->
+  </div>
+  <!-- End Of Wrapper  -->
   <!-- Footer -->
   <footer></footer>
   <!-- Footer -->
