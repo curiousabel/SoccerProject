@@ -1,13 +1,60 @@
 #footer {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     height: 2.5rem;
+    padding-top: 100%;
     /* Footer height */
+    text-align: center;
 }
 
 #carouselExampleControls {
 
-    width: 50%;
-    height: 10%;
+    width: 880px;
+    height: 350px;
+    margin: 5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    padding-top: 150px;
+}
+
+.grid-item {}
+
+
+
+#main {
+    width: 1260px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+
+.main-aside {
+    width: 300px;
+    float: right;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    margin: 2%;
+    margin-top: 20px;
+}
+
+#container {
+    width: 660px;
+    float: left;
+    background-color: white;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    padding: 10px 0;
+    background-color: #e4e4e4;
 }
